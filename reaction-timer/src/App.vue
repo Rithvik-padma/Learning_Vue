@@ -30,7 +30,6 @@ export default{
       this.reactionTime = reactionTime
       this.isPlaying = false
       this.showReaction = true
-      const emit  = defineEmit('displayData')
     }
 
   }
