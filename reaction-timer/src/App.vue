@@ -32,6 +32,7 @@ export default{
       this.showReaction = true
       const emit  = defineEmit('displayData')
     }
+
   }
 }
 </script>
