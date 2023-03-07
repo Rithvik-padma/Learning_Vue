@@ -1,5 +1,5 @@
 <template>
-    <p>Reaction Time: {{ reactionTime }} ms</p>
+    <p @click="propchange">Reaction Time: {{ reactionTime }} ms</p>
 </template>
 <script>
 export default{
@@ -8,4 +8,4 @@ export default{
 </script>
 <style scoped>
 
-</style>
+</style> 
